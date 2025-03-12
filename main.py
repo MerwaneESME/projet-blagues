@@ -4,6 +4,6 @@ def tell_joke(lang="en"):
     print(pyjokes.get_joke(language=lang))
 
 if __name__ == "__main__":
-    lang = input("Choisissez une lange (en, de, es, it, gl)0:")
+    lang = input("Choisissez une lange (en, de, es, it, gl):")
     joke_type = input("Choisissez une catégorie de blague (neutral, chuck, all):")
     tell_joke(lang, joke_type)
